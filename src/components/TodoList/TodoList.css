@@ -1,0 +1,70 @@
+body {
+  height: 100vh;
+  background-color: rgb(169, 173, 207);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.input-container {
+  background-color: rgb(135, 231, 139);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  width: 500px;
+  border-radius: 7px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+}
+.add-btn {
+  border: none;
+  background-color: #3e4ddb;
+  color: #070606;
+  border-radius: 7px;
+  width: 30%;
+  padding: 10px;
+}
+
+.list-container {
+  background-color: rgb(50, 211, 149);
+  border-radius: 7px;
+}
+.list-container ul {
+  padding-left: 0;
+}
+.list-container ul li {
+  border-bottom: 1px solid #eee;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row-reverse;
+  cursor: pointer;
+}
+.list-container ul li input {
+  display: none;
+}
+.list-container ul li label {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  content: " ";
+  margin-right: 10px;
+}
+.list-container ul li input:checked + label {
+  background-color: #162be6;
+}
+.completed {
+  background-color: #eee;
+  text-decoration: line-through;
+}
+.edit::before {
+}

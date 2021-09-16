@@ -1,0 +1,50 @@
+ul li {
+    list-style: none;
+}
+
+.cart-btn, .profile-btn {
+    width: 35px;
+    height: 35px;
+}
+
+.cartItems-count {
+    background-color: #3E4DDB;
+    color: white;
+    padding: 2.5px 5px;
+    border-radius: 50px;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.mega-menu .sub-mega-menu {
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    display: none;
+    max-height: 300px;
+    padding: 20px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100vw;
+    background-color: #f9f9f9;
+    z-index: 999;
+    text-align: right;
+}
+.mega-menu .sub-mega-menu li {
+    margin: 12.5px 0;
+    color: #666;
+    width: 25%;
+}
+.mega-menu .sub-mega-menu li:hover {
+    color: #3E4DDB;
+}
+.mega-menu ul li {
+    margin: 0 5px;
+}
+.mega-menu ul li:hover .sub-mega-menu {
+    display: flex;
+}
+
+/*# sourceMappingURL=Nav.css.map */

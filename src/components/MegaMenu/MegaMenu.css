@@ -1,0 +1,13 @@
+.mega-menu ul li ol {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    text-align: right;
+    background-color: #eee;
+    width: 100%;
+}
+
+.mega-menu ul li:hover ol{
+    display: block;
+}
